@@ -357,37 +357,6 @@ ul {
 .work-img .work-thumb:hover .text-desctop {
 	opacity: 1;
 }
-.text-mobile {
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	display: flex;
-	opacity: 0;
-
-	transform: translate(-50%);
-	/* outline: 2px solid red; */
-
-	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.work-img .work-thumb:hover .text-mobile {
-	opacity: 1;
-}
-.text-solutions {
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	display: flex;
-	opacity: 0;
-
-	transform: translate(-50%);
-	/* outline: 2px solid red; */
-
-	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.work-img .work-thumb:hover .text-solutions {
-	opacity: 1;
-}
 
 .work-img .work-thumb:hover::before {
 	opacity: 1;
