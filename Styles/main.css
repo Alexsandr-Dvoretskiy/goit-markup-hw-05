@@ -478,7 +478,7 @@ ul {
 	height: 100%;
 	align-items: center;
 	justify-content: center;
-	fill: #757575;
+	fill: #afb1b8;
 	border-color: #757575;
 	border: 1px solid #afb1b8;
 
@@ -505,7 +505,7 @@ ul {
 
 .address-item {
 	display: inline-block;
-	margin-bottom: 20px;
+	/* margin-bottom: 20px; */
 }
 
 .address-list {
@@ -703,6 +703,8 @@ ul {
 .portfolio-link .card-thumb {
 	position: relative;
 }
-.portfolio-link .card-thumb:hover .card-text {
+
+.portfolio-list:focus .card-text,
+.portfolio-list:hover .card-text {
 	opacity: 1;
 }
