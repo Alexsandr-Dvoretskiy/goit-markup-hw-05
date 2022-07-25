@@ -103,8 +103,8 @@ ul {
 } */
 .site-nav .link {
 	display: block;
-	padding-top: 32px;
-	padding-bottom: 32px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 
 	color: var(--title-text-color);
 	font-weight: 500;
@@ -125,7 +125,33 @@ ul {
 	font-size: 14px;
 	line-height: 1.14;
 }
+.site-nav .site-link::after {
+	display: inline-block;
+	content: "";
+	width: 100%;
+	height: 4px;
+	bottom: 0;
+	position: absolute;
+	background-color: #2196f3;
+	border-radius: 4px;
+	margin-bottom: 0;
+	opacity: 0;
+}
+.site-nav .site-link {
+	position: relative;
+}
+/* .site-nav .site-link:hover::after,
+.site-nav .site-link:focus::after {
+	opacity: 1;
+} */
+.site-link:hover::after {
+	opacity: 1;
+}
+.item .site-link:focus .site-link::after {
+	opacity: 1;
+}
 
+/* auth-nav  */
 .auth-nav {
 	display: inline-flex;
 	margin-left: auto;
